@@ -1,1 +1,26 @@
-<h1>Welcome to MyRecipes App</h1>
+<div class="jumbotron center text-white">
+  <h1>Welcome to MyRecipes</h1>
+  <h2>The best recipe sharing app!</h2>
+  <p><%= link_to "Sign up or Log in", "#", class: "btn btn-danger btn-lg btn-xlarge" %></p>
+</div>
+
+<div class="container">
+  <!-- Example row of columns -->
+  <div class="row">
+    <div class="col-md-4">
+      <h2>Eliminate the Carbohydrate!</h2>
+      <p>The keto diet is the next best thing! Starchy, sugary foods can often make you feel sluggish when trying to get through the workday. Isn't it time you cut the carbs? Don't know where to start? Check out these brilliant low carb meals!</p>
+      <p><%= link_to "View details &raquo;".html_safe, "#", class: "btn btn-secondary btn-xlarge" %></p>
+    </div>
+    <div class="col-md-4">
+      <h2>Holiday Hunger?</h2>
+      <p>Holidays are among us! Are you prepared? Check out these special recipes that sure to wow the whole family!</p>
+      <p><%= link_to "View details &raquo;".html_safe, "#", class: "btn btn-secondary btn-xlarge" %></p>
+    </div>
+    <div class="col-md-4">
+      <h2>Find Classes Today!</h2>
+      <p>Everybody has a culinary expert within! Yes, even you! Start looking for classes on Udemy today! Udemy is an amazing online resource that offers online courses to teach anyone those desired skill sets. So put down those Instant Noodles and make that gourmet Omelette du Fromage that you've always wanted to make!</p>
+      <p><%= link_to "Find Classes &raquo;".html_safe, "https://www.udemy.com/", class: "btn btn-secondary btn-xlarge" %></p>
+    </div>
+  </div>
+</div>
